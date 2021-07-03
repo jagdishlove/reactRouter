@@ -1,0 +1,29 @@
+.profile h1 {
+  margin-top: 1em;
+}
+.profileLink {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.profileLink button {
+  background: linear-gradient(to top left, #258cda 0%, #8a36dd 52%);
+  outline: none;
+  border: none;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0.5em 0.5em;
+  padding: 1em;
+  border-radius: 10px;
+  color: white;
+  transition: color 1s ease-in-out;
+  font-weight: 600;
+}
+
+.profileLink button:hover {
+  position: relative;
+  background: rgb(243, 186, 186);
+  color: black;
+}
